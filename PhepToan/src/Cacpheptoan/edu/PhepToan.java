@@ -31,6 +31,9 @@ public class PhepToan {
 		
 		// In ra ket qua
 		System.out.print("Tổng của a và b là: "+c);
+		
+		// dong scanner
+		scanner.close();
 	}
 
 }
