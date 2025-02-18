@@ -32,6 +32,13 @@ public class PTB2 extends PTB1 {
 			
 			if  (del < 0) { 
 				System.out.print("Phương trình VN");
+			} else if (del == 0) {
+				double x = -b/(2*a);
+				System.out.printf("Phương trình có nghiệm kép x = %.2f", x);
+			} else {
+				double x1 = (-b + Math.sqrt(del)) / (2*a);
+				double x2 = (-b - Math.sqrt(del)) / (2*a);
+				System.out.printf("Phương trình có 2 nghiệm phân biệt x1 = %.2f và x2 = %.2f", x1, x2);
 			}
 		}
 	}
