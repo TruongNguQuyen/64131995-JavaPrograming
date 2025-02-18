@@ -63,6 +63,25 @@ public class MENU_TINHTOAN_3CHUCNANG {
 			System.out.printf("Phương trình có 2 nghiệm phân biệt x1 = %.2f và x2 = %.2f", x1, x2);
 		}
 	}
+	// Hàm tính tiền điện
+	public static void TinhTienDien() {
+		// Scanner được khai báo
+		Scanner scanner = new Scanner(System.in);
+		
+		// Tên chương trình:
+		System.out.print("Chương trình tính tiền điện\n");
+		
+		// Yêu cầu người dùng nhập số điên đã sử dụng trong tháng
+		System.out.print("Xin mời nhập số điện bạn đã sử dụng trong tháng: ");
+		int soDien = scanner.nextInt();
+		
+		// Tính tiền điện
+		if (soDien < 50) {
+			System.out.print("Số tiền điện là: " + (soDien * 1000));
+		} else {
+			System.out.print("Số tiền điện là: " + (50 * 1000 + (soDien - 50) * 1200));
+		}
+	}
 	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -72,7 +91,7 @@ public class MENU_TINHTOAN_3CHUCNANG {
 		
 		do {
 			// Hiển thị menu
-			System.out.println("=====MENU=====");
+			System.out.println("\n=====MENU=====");
 			System.out.println("1. Giải phương trình bậc nhất ax + b = 0");
 			System.out.println("2. Giải phương trình bậc 2 ax^2 + bx + c = 0");
 			System.out.println("3. Tính tiền điện");
@@ -85,10 +104,14 @@ public class MENU_TINHTOAN_3CHUCNANG {
 			switch (luaChon) {
 			case 1: PTB1(); break;
 			case 2: PTB2(); break;
-			case 3: 
-			}
-		}
+			case 3: TinhTienDien(); break;
+			case 4: System.out.print("CT kết thúc! Tạm biệt"); break;
+			default: System.out.print("ERRO!!! Lựa chọn không hợp lệ, hãy nhập lại");
+			} 
+		} while (luaChon != 1 && luaChon != 2 && luaChon != 3 && luaChon != 4);
 		
+		// Đóng scanner lại
+		scanner.close();
 	}
 
 }
