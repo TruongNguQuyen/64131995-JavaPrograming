@@ -13,20 +13,20 @@ public class PTB1 {
 		System.out.print("Xin mời nhập a: ");
 		double a = scanner.nextDouble();
 		
-		System.out.print("Xin mời nhập b: ")
-		double b = scanner.nextDouble()
+		System.out.print("Xin mời nhập b: ");
+		double b = scanner.nextDouble();
 		
 		// Giải và biện luận phương trình bậc nhất
 		if (a == 0) {
 			if (b == 0) {
-				System.out.print("> Phương trình có vô số nghiệm");
+				System.out.print("Phương trình có vô số nghiệm");
 			}
 			else {
-				System.out.print("> Phương trình vô nghiệm");
+				System.out.print("Phương trình vô nghiệm");
 			}
 		}
 		else {
-			System.out.printf("> Nghiệm của phương trình x = -b/a = %.2f" + (-b/a));
+			System.out.printf("Nghiệm của phương trình x = -b/a = %.2f", (-b/a));
 		}
 	}
 
