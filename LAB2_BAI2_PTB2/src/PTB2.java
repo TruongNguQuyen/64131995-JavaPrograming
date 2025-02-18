@@ -15,7 +15,7 @@ class PTB1{
 			}
 		}
 		else {
-			System.out.printf("Nghiệm của phương trình x = -b/a = %.2f/n", (-b/a));
+			System.out.printf("Nghiệm của phương trình x = -b/a = %.2f\n", (-b/a));
 		}
 	}
 	

@@ -9,14 +9,14 @@ public class MAINCLASS {
 		PTB2 pt = new PTB2();
 		
 		// In ra tên chương trình
-		System.out.print("Chương trình giải phương trình bậc 2: dạng ax^2 + bx + c = 0");
+		System.out.print("Chương trình giải phương trình bậc 2: dạng ax^2 + bx + c = 0 \n");
 		
 		// Yêu cầu người dùng nhập dữ liệu cho 3 tham số a, b, c
-		System.out.print("Xin mời nhập a: ");
+		System.out.println("Xin mời nhập a: ");
 		double a = scanner.nextDouble();
-		System.out.print("Xin mời nhập b: ");
+		System.out.println("Xin mời nhập b: ");
 		double b = scanner.nextDouble();
-		System.out.print("Xin mời nhập c: ");
+		System.out.println("Xin mời nhập c: ");
 		double c = scanner.nextDouble();
 		
 		// giải phương trình bậc 2
