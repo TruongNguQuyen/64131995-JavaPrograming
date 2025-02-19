@@ -23,3 +23,6 @@ Lưu các bài thực hành, bài tập, dự án trong học tập. Lập trìn
 |Tên|Nội dung|Link|
 |---|--------|----|
 |LAB1_BAI1|In ra họ tên và điểm của một sinh viên|https://github.com/TruongNguQuyen/64131995-JavaPrograming/blob/main/Lab_Exercises/src/lab1/Lab1_Bai1.java|
+|LAB1_BAI2|Nhập một cạnh và xuất ra chu vi, diện tích, cạnh nhỏ nhất của HCN|https://github.com/TruongNguQuyen/64131995-JavaPrograming/blob/main/Lab_Exercises/src/lab1/Lab1_Bai2.java|
+|LAB1_BAI3|Nhập một cạnh và tính thể tích lập phương|https://github.com/TruongNguQuyen/64131995-JavaPrograming/blob/main/Lab_Exercises/src/lab1/Lab1_Bai3.java|
+|LAB1_BAI4|Tính và xuất delta của phương trình bậc 2|https://github.com/TruongNguQuyen/64131995-JavaPrograming/blob/main/Lab_Exercises/src/lab1/Lab1_Bai4.java|
