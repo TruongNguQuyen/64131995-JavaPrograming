@@ -19,3 +19,7 @@ Lưu các bài thực hành, bài tập, dự án trong học tập. Lập trìn
 <center><font color = "red">Thank for watching :heart:</font></center>
 
 #### Link các bài tập
+
+|Tên|Nội dung|Link|
+|---|--------|----|
+|LAB1_BAI1|In ra họ tên và điểm của một sinh viên|https://github.com/TruongNguQuyen/64131995-JavaPrograming/blob/main/Lab_Exercises/src/lab1/Lab1_Bai1.java|
