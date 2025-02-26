@@ -7,7 +7,7 @@ Lưu các bài thực hành, bài tập, dự án trong học tập. Lập trìn
 
 > :bulb: **Tip:** Học để giỏi hơn mỗi ngày.
 
-> :warning: **Warning:** Không nên xem quá 180 phút mỗi ngày.
+> :warning: **Warning:** Các bài tập có thể có lỗi và sai sót.
 
 <figure>
 <img src = "https://i.pinimg.com/736x/91/a6/a7/91a6a748672d47a5f7eca0397a96fb30.jpg" alt = "Beautiful_Flowers">
